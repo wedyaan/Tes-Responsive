@@ -31,25 +31,32 @@ i {
   color: #fff;
 }
 
+#id {
+  color: white;
+}
+
 .cardHolder {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   gap: 1px;
-  height: 43vh;
+  height: 38vh;
   background-color: #6c757d;
 }
 .card {
   display: flex;
-  width: 20%;
+  width: 17%;
   text-align: center;
   align-items: center;
   border: 2px solid #7c8a96;
   border-radius: 15px;
+  height: 34vh;
 }
 .devImg {
-  height: 12vh;
-  padding-top: 10px;
+  height: 9vh;
+  padding-top: 8px;
+  padding-top: 11px;
+  margin-bottom: 16px;
 }
 .btn-Choose {
   background: #51585f;
@@ -72,7 +79,6 @@ i {
 }
 .footer {
   background: #51585f;
-  
 }
 
 .footerHome {
