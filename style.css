@@ -1,1 +1,83 @@
- 
+body {
+  background: #eee;
+}
+
+.navbar {
+  background: #51585f;
+}
+
+.navbar .nav-item .nav-link {
+  font-size: 23px;
+  color: #fff;
+}
+
+.text-heading {
+  font-weight: bold;
+  font-size: 22px;
+  color: #7c8a96;
+}
+
+.inputUrl {
+  width: 499px;
+  height: 38px;
+
+  float: left;
+  margin: 0px;
+  padding: 10px 10px;
+  color: #303030;
+  line-height: normal;
+}
+i {
+  color: #fff;
+}
+
+.cardHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1px;
+  height: 43vh;
+  background-color: #6c757d;
+}
+.card {
+  display: flex;
+  width: 20%;
+  text-align: center;
+  align-items: center;
+  border: 2px solid #7c8a96;
+  border-radius: 15px;
+}
+.devImg {
+  height: 12vh;
+  padding-top: 10px;
+}
+.btn-Choose {
+  background: #51585f;
+  color: #eee;
+}
+
+/* about Style */
+
+.aboutSection {
+  margin-top: 3rem;
+}
+.aboutSHeading {
+  border-bottom: 2px solid #ccc;
+  width: 42%;
+  display: inline-block;
+}
+.socialSection {
+  background: #6c757d;
+  color: #fff;
+}
+.footer {
+  background: #51585f;
+  
+}
+
+.footerHome {
+  background: #51585f;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
